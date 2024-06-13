@@ -1,3 +1,9 @@
 .odd {
-    color: rgb(rgb(224, 35, 199), rgb(224, 40, 215), rgb(197, 56, 216))
+    background-color: rgb(224, 35, 199);
+    font: "Verdana", "DejaVu Sans", "sans-serif";
+}
+
+#number-two {
+    color: blue;
+    font-size: 36px;
 }
