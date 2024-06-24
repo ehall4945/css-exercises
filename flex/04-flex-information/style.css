@@ -24,3 +24,13 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.img-text-container {
+  display: flex;
+  justify-content: space-evenly;
+}
