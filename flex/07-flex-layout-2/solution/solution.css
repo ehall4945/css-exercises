@@ -43,6 +43,7 @@ body {
   font-weight: 900;
 }
 
+/* Simple solution that helped push footer down when card box wraps */
 .body {
   flex: 1;
   display: flex;

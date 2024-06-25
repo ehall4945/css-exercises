@@ -77,18 +77,12 @@ body {
   align-items: center;
   flex: 1;
   gap: 30px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 75px;
+  padding: 48px;
 }
 
 .content-container {
-  border: 5px dashed black;
   display: flex;
-  align-items: stretch;
-  height: 81vh;
-  flex-grow: 1;
-  flex-shrink: 1;
+  flex: 1;
 }
 
 a,
