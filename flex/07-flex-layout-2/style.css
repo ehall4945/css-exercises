@@ -30,13 +30,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  flex-grow: 0;
+  flex-wrap: wrap;
   border: 1px solid blue;
-}
-
-.footer-position {
-  display: flex;
-  flex-direction: column;
 }
 
 .sidebar {
@@ -46,7 +41,8 @@ body {
   box-sizing: border-box;
   border: 1px solid black;
   display: flex;
-  flex-shrink: 0;
+  flex-shrink: 0; 
+  padding: 16px; 
 }
 
 .sidebar-container {
@@ -93,5 +89,13 @@ body {
   height: 81vh;
   flex-grow: 1;
   flex-shrink: 1;
+}
+
+a,
+li {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
 }
 
